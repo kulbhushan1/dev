@@ -270,7 +270,7 @@ app.post('/api/photo',function(req,res){
             return res.end("Error uploading file.");
         }
 
-        res.end("File is uploaded");
+        res.end("File is uploaded successfully");
     });
 });
 
